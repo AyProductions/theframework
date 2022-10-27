@@ -1,0 +1,181 @@
+* {
+	font-family: sans-serif;
+}
+
+.mxw {
+	display: inline-block;
+}
+
+.discourse.blockquote {
+	background-color: #EEE;
+	border-left: 7px solid #CCC;
+	padding: 10px;
+}
+
+.discourse.mention {
+	background-color: #EEE;
+	border-radius: 25px;
+	font-weight: bold;
+	color: #999;
+	padding: 3px;
+	cursor: pointer;
+}
+
+.discourse.button.top.bar {
+	background-color: transparent;
+	cursor: pointer;
+	color: #010;
+	outline: 0;
+	border: none;
+	font-size: 17;
+	padding: 5px 10px 5px 10px;
+	transition: background-color 0.2s;
+}
+
+.discourse.button.top.bar:hover {
+	background-color: #FCEBE6;
+	color: red;
+	transition: background-color 0.5s;
+}
+
+button[state="discourse button top bar active"] {
+	background-color: #900;
+	color: white;
+	transition: background-color 0.5s;
+	outline: 0;
+	border: none;
+	font-size: 17;
+	padding: 5px 10px 5px 10px;
+	transition: background-color 0.2s;
+	cursor: pointer;
+}
+
+.discourse.button.top.bar {
+	
+}
+
+.discourse.action.button {
+	background-color: #DDD;
+	cursor: pointer;
+	color: #010;
+	outline: 0;
+	border: none;
+	font-size: 17;
+	padding: 5px 10px 5px 10px;
+	transition: background-color 0.2s;
+}
+
+.discourse.action.button:hover {
+	background-color: #999;
+	cursor: pointer;
+	color: white;
+	outline: 0;
+	border: none;
+	font-size: 17;
+	padding: 5px 10px 5px 10px;
+	transition: background-color 0.5s;
+}
+
+.discourse.hr {
+	background: #FFF;
+	outline: 0;
+}
+
+.discourse.unread {
+	text-align: center;
+	background-color: #6CF;
+	color: white;
+	border-radius: 50px;
+	padding: 0.21em 0.21em;
+	font-size: 0.7579em;
+	width: 14;
+	height: 14;
+}
+
+.discourse.textbox {
+	padding: 9.5px;
+	border: 1px solid #AAA;
+	font-size: 17;
+}
+
+.discourse.textbox:active {
+	border: 2.5px solid #08C;
+	outline: 0;
+}
+
+.discourse.textbox:focus {
+	border: 2.5px solid #08C;
+	outline: 0;
+}
+
+.discourse.list.element {
+	background-color: #FFFFA6;
+	color: black;
+	padding: 8px;
+	border: none;
+	outline: 0;
+}
+
+.discourse.preformatted.code.single.line {
+	padding: 0;
+	background-color: #F8F8F8;
+	color: #555;
+	font-family: monospace;
+	font-size: 14px;
+}
+
+.discourse.preformatted.code.multiple.line {
+	padding: 9.5px;
+	background-color: #F8F8F8;
+	color: #555;
+	font-family: monospace;
+	font-size: 16px;
+}
+
+.discourse.hyperlink {
+	text-decoration: none;
+	color: #08C;
+	font-size: 15;
+}
+
+.discourse.table {
+	text-align: left;
+	background-color: transparent;
+	color: black;
+	padding: 5px;
+	border-collapse: collapse;
+	outline: 0;
+}
+
+.discourse.table.header {
+	text-align: left;
+	background-color: transparent;
+	color: black;
+	font-weight: bold;
+	border-bottom: 3.5px solid #CCC;
+	padding: 5px;
+}
+
+.discourse.table.data {
+	text-align: left;
+	background-color: transparent;
+	color: black;
+	border-bottom: 1px solid #CCC;
+	padding: 5px;
+}
+
+.discourse.option.selector {
+	padding: 5px;
+	border: 1px solid #AAA;
+	font-size: 17;
+	background: transparent;
+}
+
+.discourse.option {
+	font-size: 15;
+	padding: 90px;
+}
+
+.discourse.option[selected] {
+	font-weight: bold;
+}
