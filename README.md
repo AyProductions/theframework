@@ -3,6 +3,8 @@ The Ultimate CSS Framework made just like Discourse! Integrate Discourse styling
 
 Taken permission from Discourse too! https://meta.discourse.org/t/am-i-allowed-to-use-discourse-like-styling-in-my-website/243060/2
 
+Credits to [Discourse](https://www.discourse.org/) and [Discourse Meta](https://www.discourse.org/) too for helping us out!
+
 [![](https://data.jsdelivr.com/v1/package/gh/AyProductions/theframework/badge)](https://www.jsdelivr.com/package/gh/AyProductions/theframework)
 
 CDN: https://cdn.jsdelivr.net/gh/AyProductions/theframework@1.0.0/css/framework.css
